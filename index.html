@@ -87,42 +87,31 @@
             </div>    
         </div>
 
-        <div class="row ">
+        <div class="row">
             <div class="col-sm-6 mx-auto">
                 <h3 class="bg-info text-white">Reserve a Campsite</h3>
                     <div class="card-body">
-                            <form>
-                                <div class="row row-content align-items-center">
-                                        <label for="">Number of Campers</label>
-                                        <div class="col-sm-6">
-                                            <select class="browser-default custom-select">
-                                                <option selected>Select</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">One</option>
-                                                <option value="4">Two</option>
-                                                <option value="5">One</option>
-                                                <option value="6">Two</option>
-                                            </select>
-                                        </div>    
-                                </div>
-                                <div class="row row-content align-items-center">
-                                    <label for="">Number of Campers</label>
-                                    <div class="col-sm-6">
-                                        <select class="browser-default custom-select">
-                                            <option selected>Select</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">One</option>
-                                            <option value="4">Two</option>
-                                            <option value="5">One</option>
-                                            <option value="6">Two</option>
-                                        </select>
-                                    </div>    
-
-                                </div>    
-
+                              <form>
+                                <div class="form-group row">
+                                    <label for="numCampers" class="col-xs-12 col-sm-6 col-form-label">Number Of Campers</label>
+                                    <select class="form-control col-sm-6 col-xs-12" id="numCampers" name="numCampers">
+                                        <option selected>Select..</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                      </select>
+                                </div>            
+                                <div class="form-group row align-items-center">
+                                    <label for="date" class="col-sm-6 col-form-label" placeholder="date">Date</label>
+                                        <input type="date" id="date" name="date" class="col-sm-6" />
+                                </div>              
+                                <button type="submit" class="btn btn-primary">Search</button>
                             </form>
+
+
                     </div>    
                     
                 </div>
