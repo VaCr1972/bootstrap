@@ -15,6 +15,7 @@
 <body>
     <header class="jumbotron jumbotron-fluid">
         <div class ="container">
+         
             <div class = "row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
                     <img src="img/logo.png" class="img-fluid" />
@@ -22,6 +23,9 @@
                 <div class="col">     
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
+                </div>
+                <div class="col-md-4 col-xl-2">
+                    <button class="btn btn-info mt-4 btn-lg" href="reserveForm" role="button">Reserve Campsite</a>
                 </div>
             </div>
         </div>        
@@ -87,36 +91,37 @@
             </div>    
         </div>
 
-        <div class="row">
+        <div class="row row-content">
             <div class="col-sm-6 mx-auto">
-                <h3 class="bg-info text-white">Reserve a Campsite</h3>
+                <div class="border">
+                <h3 class="bg-info text-white">Reserve a Campsite</h3>            
                     <div class="card-body">
-                              <form>
-                                <div class="form-group row">
-                                    <label for="numCampers" class="col-xs-12 col-sm-6 col-form-label">Number Of Campers</label>
-                                    <select class="form-control col-sm-6 col-xs-12" id="numCampers" name="numCampers">
-                                        <option selected>Select..</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
-                                        <option>6</option>
-                                      </select>
-                                </div>            
-                                <div class="form-group row align-items-center">
-                                    <label for="date" class="col-sm-6 col-form-label" placeholder="date">Date</label>
-                                        <input type="date" id="date" name="date" class="col-sm-6" />
-                                </div>              
-                                <button type="submit" class="btn btn-primary">Search</button>
-                            </form>
+                              <form id="reserveForm">
+                                    <div class="form-group row">
+                                        <label for="numCampers" class="col-xs-12 col-sm-6 col-form-label">Number Of Campers</label>
+                                        <select class="form-control col-sm-6 col-xs-12" id="numCampers" name="numCampers">
+                                            <option selected>Select..</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                        </select>
+                                    </div>            
+                                    <div class="form-group row align-items-center">
+                                        <label for="date" class="col-sm-6 col-form-label" placeholder="date">Date</label>
+                                            <input type="date" id="date" name="date" class="col-sm-6" />
+                                    </div>              
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                </form>
 
 
                     </div>    
-                    
-                </div>
-            </div>  
-        </div>
+                </div>    
+            </div>
+        </div>  
+        
 
      </div> 
     
