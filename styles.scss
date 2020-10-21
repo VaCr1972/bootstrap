@@ -1,10 +1,10 @@
-$color-primary: #3046C5;
+$color-primary: #3046c5;
 $color-secondary: #5637dd;
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
-
+$color-teal:#17A2B8;
 $body-font: "Open Sans", sans-serif;
 $header-font: "Lobster", cursive;
 
@@ -74,5 +74,18 @@ body {
         bottom: 0;
         z-index: 100;
     }
+
+    #reserveButton{
+        .modal-header {
+            background-color:$color-teal;
+            color:white;
+        }
+    }
     
-    
+
+    #loginButton {
+        .modal-header{       
+            background-color: $color-mid;
+            color:white;
+        }
+    }
