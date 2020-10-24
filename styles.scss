@@ -25,9 +25,8 @@ body {
     header{ 
        h2 {
         color: $color-pale;
+            }        
         }
-        
-}
     
     .site-footer {
         background-image: linear-gradient($color-pale, white);
@@ -76,10 +75,10 @@ body {
     }
 
     #reserveButton{
-        .modal-header {
+     .modal-header{
             background-color:$color-teal;
             color:white;
-        }
+     }
     }
     
 
